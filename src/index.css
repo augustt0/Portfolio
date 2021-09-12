@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#myVideo {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  min-height: 100%;
+  object-fit: cover;
+}
+
+@font-face {
+  font-family: 'Impact';
+  font-weight: 400;
+  src: url('assets/fonts/impact.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Inconsolata';
+  font-weight: 400;
+  src: url('assets/fonts/Inconsolata-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Inconsolata';
+  font-weight: 600;
+  src: url('assets/fonts/Inconsolata-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Inconsolata';
+  font-weight: 800;
+  src: url('assets/fonts/Inconsolata-Bold.ttf') format('truetype');
+}
