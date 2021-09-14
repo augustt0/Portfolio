@@ -1,0 +1,4 @@
+RewriteEngine on
+RewriteCond %{HTTP_REFERER} !^http://localhost:3000/.*$ [NC]
+RewriteCond %{HTTP_REFERER} !^http://augustt0.github.io/Portfolio.*$ [NC]
+RewriteRule .(mp4|mp3|avi)$ - [F]
